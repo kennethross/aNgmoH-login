@@ -1,0 +1,88 @@
+@media only screen and (max-width: 600px) {
+  .login-panel {
+    top: 60%;
+    margin: 0;
+    position: absolute;
+    // top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .right-panel {
+    height: 60vh;
+
+    .login-form {
+      width: 100%;
+    }
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .login-panel {
+    top: 80%;
+    margin: 0;
+    position: absolute;
+    // top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .right-panel {
+    height: 60vh;
+
+    .login-form {
+      width: 70%;
+    }
+  }
+}
+
+.container-fluid {
+  height: 100vh;
+
+  .main-row {
+    height: 100%;
+
+    .left-panel {
+      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("src/assets/banner.jpg");
+      background-position: center; /* Center the image */
+      background-size: cover; /* Resize the background image to cover the entire container */
+
+      img {
+        padding: 70px 0;
+        text-align: center;
+      }
+    }
+
+    .right-panel {
+      .login-panel {
+        font-weight: 300;
+
+        // top: 80%;
+        left: 50%;
+        border-color: pink;
+        width: 80%;
+        height: 70%;
+
+        // .login-form {
+        //   width: 70%;
+        // }
+      }
+    }
+  }
+
+  .middle {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  input {
+    border-radius: 10px;
+    width: 100%;
+    background: rgb(234, 240, 253);
+
+    padding: 23px 10px 23px 10px;
+  }
+}
